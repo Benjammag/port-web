@@ -1,0 +1,11 @@
+.main {
+  padding: 0.5rem;
+}
+.working-experience {
+  margin: 0;
+}
+.working-experience h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}

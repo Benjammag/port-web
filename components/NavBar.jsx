@@ -21,22 +21,22 @@ export default function NavBar() {
           </div>
           <ul>
             <li>
-              <Link href="" className="menu-item">
+              <Link href="/" className="menu-item">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="" className="menu-item">
+              <Link href="#skills" className="menu-item">
                 Skills
               </Link>
             </li>
             <li>
-              <Link href="" className="menu-item">
-                Projects
+              <Link href="#experience" className="menu-item">
+                Experience
               </Link>
             </li>
             <li>
-              <Link href="" className="menu-item">
+              <Link href="#contact" className="menu-item">
                 Contact Me
               </Link>
             </li>

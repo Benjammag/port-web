@@ -4,7 +4,7 @@ import ContactInfoCard from "./ContactInfoCard";
 import "./ContactMe.css";
 export default function ContactMe() {
   return (
-    <section id="contact-me" className="contact-container">
+    <section id="contact" className="contact-container">
       <h5>Contact Me</h5>
 
       <div className="contact-content">

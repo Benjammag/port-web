@@ -71,3 +71,54 @@ export const CREATIVE_EXPERIENCE = [
     ],
   },
 ];
+
+export const WORKING_EXPERIENCE = [
+  {
+    title: "Frontend Web Developer",
+    date: "Dec 2023 - Present",
+    place: "Freelance",
+    about: [
+      "Designing and developing new features and functionality for the existing web app.",
+      "Translating design files to clean, accessible and interactive user experiences.",
+      "Developing and maintaining user-facing websites using HTML, CSS, JavaScript and ReactJS.",
+    ],
+  },
+];
+
+export const WORKING_EXPERIENCE2 = [
+  {
+    title: "Frontend Web Developer (Remote).",
+    date: "Dec 2022 - Nov2023",
+    place: "Heaux (Hush), Michigan, DE",
+    about: [
+      "Developed frontend interfaces using HTML, CSS, JavaScript, Jquery and ReactJS.",
+      "Developed functional and appealing web applications based on usability, resulting in increased customer satisfaction.",
+      "Leveraged version control systems like Git for code management, collaboration and efficient project history tracking.",
+    ],
+  },
+];
+
+export const WORKING_EXPERIENCE3 = [
+  {
+    title: "Junior IT Officer and Data Entry Specialist",
+    date: "Jan 2021 - Nov 2022",
+    place: "GACAS, Ilorin, Kwara State",
+    about: [
+      "Coordinated technical training and personal development classes for staff members.",
+      "Troubleshooted system errors and identified areas for improvement.",
+    ],
+  },
+];
+
+export const WORKING_EXPERIENCE4 = [
+  {
+    title: "Information Technology Teacher.",
+    date: "Dec 2019 - Oct 2020",
+    place: "CAC Middle School Ede, Osun State.",
+    about: [
+      "Tested and evaluated students progress to determine effectiveness and impact of teaching methods and materials.",
+      "Trained and developed. Students’ skills in word-processing, power-point and basic excel.",
+      "Provided interesting and engaging assignments to demonstrate real world applicationsofcomputer concepts covered.",
+    ],
+  },
+];

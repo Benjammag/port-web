@@ -24,7 +24,7 @@ export default function MobileNav({ isOpen, toggleMenu }) {
             </li>
             <li>
               <Link href="" className="menu-item">
-                Projects
+                Experience
               </Link>
             </li>
             <li>
