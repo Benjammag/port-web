@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import CreativeExperience from "@/components/CreativeExperience";
-import WorkingExperience from "@/components/WorkingExperience";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <div className={styles.container}>
         <Hero />
         <Skills />
-        <WorkingExperience />
         <CreativeExperience />
         <ContactMe />
         <Footer />

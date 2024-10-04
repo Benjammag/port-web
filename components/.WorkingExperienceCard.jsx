@@ -1,7 +1,7 @@
 import React from "react";
 import "./WorkingExperienceCard.css";
 
-export default function WorkingExperienceCard({ details, details2 }) {
+export default function WorkingExperienceCard({ details }) {
   return (
     <section>
       <div className="working-experience-card">

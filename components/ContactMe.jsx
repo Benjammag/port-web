@@ -11,12 +11,12 @@ export default function ContactMe() {
         <div style={{ flex: 1 }}>
           <Link
             className="mail"
-            href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            href="mailto:benjaminagbetuyi@gmail.com"
             target="_blank"
           >
             <ContactInfoCard
               iconUrl="/assets/images/email.png"
-              text="agbetuyibenjamin4@gmail.com"
+              text="benjaminagbetuyi@gmail.com"
             />
           </Link>
           <Link
