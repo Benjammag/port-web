@@ -56,6 +56,14 @@ export default function Hero() {
               alt=""
             />
           </div>
+          <div className="tech-icon">
+            <Image
+              width={"80"}
+              height={"80"}
+              src="/assets/images/ts.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
