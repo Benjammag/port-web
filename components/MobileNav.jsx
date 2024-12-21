@@ -34,7 +34,12 @@ export default function MobileNav({ isOpen, toggleMenu }) {
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              <Link
+                href="mailto:benjaminagbetuyi@gmail.com"
+                className="menu-item"
+              >
+                Hire Me
+              </Link>
             </button>
           </ul>
         </div>

@@ -5,11 +5,11 @@ import {
   WORKING_EXPERIENCE4,
 } from "@/utils/data";
 import React from "react";
-import WorkingExperienceCard from "./WorkingExperienceCard";
+import WorkingExperienceCard from "./.WorkingExperienceCard";
 import "./WorkingExperience.css";
-import WorkingExperienceCard2 from "./WorkingExperienceCard2";
-import WorkingExperienceCard3 from "./WorkingExperienceCard3";
-import WorkingExperienceCard4 from "./WorkingExperienceCard4";
+import WorkingExperienceCard2 from "./.WorkingExperienceCard2";
+import WorkingExperienceCard3 from "./.WorkingExperienceCard3";
+import WorkingExperienceCard4 from "./.WorkingExperienceCard4";
 
 export default function WorkingExperience() {
   return (

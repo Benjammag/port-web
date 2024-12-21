@@ -42,7 +42,12 @@ export default function NavBar() {
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
-              Hire Me
+              <Link
+                href="mailto:benjaminagbetuyi@gmail.com"
+                className="menu-item"
+              >
+                Hire Me
+              </Link>
             </button>
           </ul>
 
