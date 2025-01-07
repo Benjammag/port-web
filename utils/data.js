@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const SKILLS = [
   {
     title: "Frontend",
@@ -33,42 +35,70 @@ export const SKILLS = [
 
 export const CREATIVE_EXPERIENCE = [
   {
-    title: "Coffee Website",
-    about: [
-      "HTML, CSS",
-      "Built a multi page coffee website using basic HTML and CSS.",
-    ],
-  },
-
-  {
-    title: "Tin-dog website",
-    about: [
-      "HTML, CSS, Bootstrap",
-      "Built a website using basic HTML, CSS and Bootstrap.",
-    ],
-  },
-
-  {
-    title: "Simon Game",
-    about: [
-      "HTML, CSS, JavaScript, JQuery",
-      "Built an imitation of a game that can be played on a website.",
-    ],
-  },
-
-  {
-    title: "To-Do React-App",
-    about: [
-      "HTML, CSS, JavaScript, React",
-      "Built a to-do react app that takes in to-do schedules and allows deletion of schedules.",
-    ],
-  },
-
-  {
-    title: "Food-Recipe React-App",
+    icon: "/assets/images/recipe.jpg",
+    title: "FOOD-RECIPE App",
     about: [
       "HTML, CSS, JavaScript, React",
       "Built a food-recipe react app which utilizes API call to display recipe, ingredients etc.",
     ],
+    deploy: ["https://food-ce5j52hxq-benjamin-agbetuyis-projects.vercel.app/"],
+    git: ["https://github.com/Benjammag/food-app"],
+  },
+
+  {
+    icon: "/assets/images/dog.jpg",
+    title: "TIN-DOG Website",
+    about: [
+      "HTML, CSS, Bootstrap",
+      "Built a website using basic HTML, CSS and Bootstrap.",
+    ],
+    deploy: [
+      "https://tindog-k85bf6kxe-benjamin-agbetuyis-projects.vercel.app/",
+    ],
+    git: ["https://github.com/Benjammag/tindog"],
+  },
+
+  {
+    icon: "/assets/images/game.jpg",
+    title: "SIMON GAME",
+    about: [
+      "HTML, CSS, JavaScript, JQuery",
+      "Built an imitation of a game that can be played on a website.",
+    ],
+    deploy: ["https://simon-game-psi-gules.vercel.app/"],
+    git: ["https://github.com/Benjammag/simon-game"],
+  },
+
+  {
+    icon: "/assets/images/todo-lists.jpg",
+    title: "TO-DO App",
+    about: [
+      "HTML, CSS, JavaScript, React",
+      "Built a to-do react app that takes in to-do schedules and allows deletion of schedules.",
+    ],
+    deploy: ["https://benjammag.github.io/to-do-app/"],
+    git: ["https://github.com/Benjammag/to-do-app"],
+  },
+
+  {
+    icon: "/assets/images/drum.jpg",
+    title: "DRUM-KIT",
+    about: ["HTML, CSS, JavaScript"],
+    deploy: ["https://benjammag.github.io/drum-kit/"],
+    git: ["https://github.com/Benjammag/drum-kit"],
+  },
+  {
+    icon: "/assets/images/coffee-menu.jpg",
+    title: "CAFE-MENU",
+    about: ["HTML, CSS, JavaScript"],
+    deploy: ["https://benjammag.github.io/cafe-menu/"],
+    git: ["https://github.com/Benjammag/cafe-menu"],
+  },
+  {
+    icon: "/assets/images/card.jpg",
+    title: "NAME-CARD Page",
+    about: ["HTML, CSS, JavaScript"],
+    deploy: ["https://benjammag.github.io/assessment/"],
+    git: ["https://github.com/Benjammag/assessment"],
   },
 ];

@@ -26,8 +26,15 @@ export default function ContactMe() {
           >
             <ContactInfoCard
               iconUrl="/assets/images/github.svg"
-              text="https://github.com/Benjammag"
+              text="Github"
             />
+          </Link>
+          <Link
+            className="git"
+            href="https://www.linkedin.com/in/benjamag/"
+            target="_blank"
+          >
+            <ContactInfoCard iconUrl="/assets/images/lin.svg" text="LinkedIn" />
           </Link>
         </div>
         <div style={{ flex: 1 }}>

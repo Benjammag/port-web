@@ -1,8 +1,10 @@
 .creative-experience-card {
-  background: #130f2a;
+  /* background: #130f2a; */
   border-radius: 0.65rem;
-  border: 1.5px solid #6751b9;
-  padding: 1.5rem;
+  /* border: 1.5px solid #6751b9; */
+  border: none;
+  padding: 1rem;
+  /* width: 340px; */
   margin: 0 1rem;
 }
 
@@ -39,6 +41,42 @@
   position: absolute;
   left: -1.3rem;
   top: 0.35rem;
+}
+
+.btn_link {
+  padding: 20px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+Img {
+  border-radius: 20px;
+}
+
+.img-container {
+  padding-left: auto;
+  width: auto !important;
+  height: auto !important;
+}
+
+.title {
+  padding: 5px;
+  padding-top: 10px;
+}
+
+.btn_two {
+  margin: 10px;
+}
+
+.btn_one,
+.btn_two {
+  border-radius: 6px;
+  padding: 10px 5px;
+  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+}
+
+button:hover {
+  background: inherit;
 }
 
 @media (max-width: 760px) {
