@@ -43,7 +43,7 @@ export default function NavBar() {
 
             <button className="contact-btn" onClick={() => {}}>
               <Link
-                href="./assets/images/Benjamin-Agbetuyi.pdf"
+                href="./assets/images/benjamin_agbetuyi_.pdf"
                 target="_blank"
                 download="Benjamin-Agbetuyi.pdf"
                 className="menu-item"
